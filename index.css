@@ -1,0 +1,90 @@
+.jumbotron {
+  background-image: url(./images/jumbtron.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  color: antiquewhite;
+}
+
+.img-fluid {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+span {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  font-weight: lighter;
+  color: red;
+}
+
+.dealP {
+  position: absolute;
+  top: 1em;
+  left: 3em;
+  color: black;
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+.col-4 {
+  font-weight: 600;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.Last-minute {
+  margin-top: 2em;
+}
+
+.user {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.Testimonials {
+  margin-top: 2em;
+}
+
+.box {
+  border: var(--border);
+  text-align: center;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.stars {
+  color: gold;
+}
+
+h3 {
+  margin-left: 1em;
+}
+
+.item-social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 22px;
+  color: inherit;
+  opacity: 0.75;
+
+  color: skyblue;
+}
+
+.item-social > a:hover {
+  opacity: 0.9;
+}
