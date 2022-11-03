@@ -77,14 +77,29 @@ h3 {
   text-align: center;
   border-radius: 50%;
   border: 1px solid #ccc;
-  margin-left: 10px;
+  margin-left: 11px;
   margin-top: 22px;
   color: inherit;
   opacity: 0.75;
-
   color: skyblue;
+}
+.item-social {
+  display: flex;
+  justify-content: center;
+  margin-left: 28em;
 }
 
 .item-social > a:hover {
   opacity: 0.9;
+}
+
+.last {
+  background-color: skyblue;
+  margin-left: 36em;
+  border-radius: 20px;
+  border: none;
+}
+
+footer {
+  margin-left: 7em;
 }
